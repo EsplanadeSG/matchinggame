@@ -86,9 +86,7 @@ body {
   height: 100%;
   display: block;
   -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
   -webkit-transition: .4s ease-in-out;
-  transition: .4s ease-in-out;
   background: #dbf9f9;
 }
 .card .inside.picked, .card .inside.matched {
@@ -96,10 +94,8 @@ body {
           transform: rotateY(180deg);
 }
 .card .inside.matched {
-  -webkit-animation: 1s matchAnim ease-in-out;
-          animation: 1s matchAnim ease-in-out;
-  -webkit-animation-delay: .4s;
-          animation-delay: .4s;
+  -webkit-animation: 0.8s matchAnim ease-in-out;
+  -webkit-animation-delay: .2s;
 }
 .card .front, .card .back {
   border: 0px solid black;
@@ -140,7 +136,7 @@ body {
 .modal-overlay {
   display: none;
   background: rgba(0, 0, 0, 0.8);
-  position: fixed;
+  position: center;
   top: 0;
   left: 0;
   width: 100%;
