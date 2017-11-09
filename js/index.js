@@ -102,8 +102,8 @@
 				frag += '<div class="card" data-id="'+ v.id +'"><div class="inside">\
 				<div class="front"><img src="'+ v.img +'"\
 				alt="'+ v.name +'" /></div>\
-				<div class="back"><img src="https://www.giving.sg/image/organization_logo?img_id=3205601&1508809339000"\
-				alt="Codepen" /></div></div>\
+				<div class="back"><img src="https://github.com/EsplanadeSG/matchinggame/blob/master/PIP.png?raw=true"\
+				alt="mythical" /></div></div>\
 				</div>';
 			});
 			return frag;
