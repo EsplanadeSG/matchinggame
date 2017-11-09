@@ -141,8 +141,7 @@ body {
 
 .modal {
   display: none;
-  position: absolute;
-
+  position: relative;
   width: 500px;
   height: 400px;
   max-height: 90%;
@@ -151,8 +150,8 @@ body {
   margin: 0 auto;
   background: white;
   top: 50%;
-  -webkit-transform: translateY(-30%);
-          transform: translateY(-30%);
+  -webkit-transform: translateY(-20%);
+          transform: translateY(-20%);
   padding: 30px 10px;
 }
 .modal .winner {
@@ -174,18 +173,18 @@ body {
   display: block;
   font-size: 30px;
   border: none;
-  background: #dbf9f9;
-  background: -webkit-linear-gradient(#dbf9f9, #222);
-  background: linear-gradient(#dbf9f9, #222);
+  background: #4d4d4d;
+  background: -webkit-linear-gradient(#4d4d4d, #222);
+  background: linear-gradient(#4d4d4d, #222);
   border: 1px solid #222;
   border-radius: 5px;
-  color: black;
+  color: white;
   text-shadow: 0px 1px 0 black;
   cursor: pointer;
 }
 .modal .restart:hover {
-  background: -webkit-linear-gradient(#222, #dbf9f9);
-  background: linear-gradient(#222, #dbf9f9);
+  background: -webkit-linear-gradient(#222, black);
+  background: linear-gradient(#222, black);
 }
 .modal .message {
   text-align: center;
