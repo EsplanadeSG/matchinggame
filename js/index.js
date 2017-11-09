@@ -109,7 +109,6 @@
 			return frag;
 		}
 	};
-
 	var cards = [
 		{
 			name: "Garuda",
@@ -128,9 +127,9 @@
 		},
 		{
 			name: "Jambavan",
-			img: "https://media.giphy.com/media/xT0xeJ5NCn5u0y8USI/giphy.gif",
+			img: "https://media.giphy.com/media/xUOxeXGvZYKn1Bqd2M/giphy.gif",
 			id: 4
-		},
+		}, 
 		{
 			name: "Hanuman",
 			img: "https://media.giphy.com/media/3ohs7If8dEPB6mMfEQ/giphy.gif",
@@ -141,10 +140,7 @@
 			img: "https://media.giphy.com/media/xUOxf5nPWFru8SJU0E/giphy.gif",
 			id: 6
 		},
-
 	];
-
+    
 	Memory.init(cards);
-
-
 })();
