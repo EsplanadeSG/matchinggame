@@ -110,65 +110,37 @@
 		}
 	};
 	var cards = [
+		
+{
+			name: "Garuda",
+			img: "https://media.giphy.com/media/xUOxf4PEGZ3YSme7hm/giphy.gif",
+			id: 1,
+		},
 		{
-
-name: "Garuda",
-
-img: "https://github.com/EsplanadeSG/matchinggame/blob/master/sm/garudasm.png",
-
-id: 1,
-
-},
-
-{
-
-name: "Ravana",
-
-img: "https://github.com/EsplanadeSG/matchinggame/blob/master/sm/ravanasm.png",
-
-id: 2
-
-},
-
-{
-
-name: "Jatayu",
-
-img: "https://github.com/EsplanadeSG/matchinggame/blob/master/sm/jatayusm.png",
-
-id: 3
-
-},
-
-{
-
-name: "Jambavan",
-
-img: "https://github.com/EsplanadeSG/matchinggame/blob/master/sm/jambavansm.png",
-
-id: 4
-
-}, 
-
-{
-
-name: "Hanuman",
-
-img: "https://github.com/EsplanadeSG/matchinggame/blob/master/sm/hanumansm.png",
-
-id: 5
-
-},
-
-{
-
-name: "Shesha",
-
-img: "https://github.com/EsplanadeSG/matchinggame/blob/master/sm/sheshasm.png",
-
-id: 6
-
-},
+			name: "Ravana",
+			img: "https://media.giphy.com/media/xUOxfgCPD2VeflwkpO/giphy.gif",
+			id: 2
+		},
+		{
+			name: "Jatayu",
+			img: "https://media.giphy.com/media/xUOxeWqA1xjUPXHC3S/giphy.gif",
+			id: 3
+		},
+		{
+			name: "Jambavan",
+			img: "https://media.giphy.com/media/xUOxeXGvZYKn1Bqd2M/giphy.gif",
+			id: 4
+		}, 
+		{
+			name: "Hanuman",
+			img: "https://media.giphy.com/media/3ohs7If8dEPB6mMfEQ/giphy.gif",
+			id: 5
+		},
+		{
+			name: "Shesha",
+			img: "https://media.giphy.com/media/xUOxf5nPWFru8SJU0E/giphy.gif",
+			id: 6
+		},
 
 	];
     
